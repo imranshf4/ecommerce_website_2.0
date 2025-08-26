@@ -1,0 +1,7 @@
+npm install vue@3 @vitejs/plugin-vue
+############ vite.config.js ############
+vue(),
+
+
+https://www.npmjs.com/package/@vitejs/plugin-vue
+npm install vue-router@4
