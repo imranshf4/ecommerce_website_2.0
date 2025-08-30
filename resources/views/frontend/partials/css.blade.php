@@ -2,6 +2,8 @@
   body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
   }
 
   .header_top h5 {
@@ -22,12 +24,9 @@
     margin: 0;
   }
 
-  .website_content p {
-    margin: 0 auto;
-    width: 500px;
-    text-align: justify;
-    font-size: 18px;
-    font-family: cursive;
+  #myHeader {
+    transition-delay: .5s ease-in-out;
+    scroll-behavior: smooth;
   }
 
   /* sticky_header */
@@ -35,8 +34,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    transition-delay: .5s ease-in-out;
-    scroll-behavior: smooth;
+
   }
 
   @media (min-width: 1500px) {

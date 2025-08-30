@@ -1,121 +1,76 @@
 <header class="header">
-    <div class="header_top">
-        <h5>Header Top</h5>
+    <div class="header_top container">
+        <div class="logo_wrapper">
+            <img src="{{ asset('assets/frontend/images/logo.png') }}" alt="logo" class="logo_img">
+        </div>
+
+        <div class="search_wrapper">
+            <input type="text" class="search_input" placeholder="Search" />
+            <svg viewBox="0 0 24 24" width="24" height="24"
+                stroke="currentColor" stroke-width="2" fill="none"
+                stroke-linecap="round" stroke-linejoin="round"
+                class="icon search_icon">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+        </div>
+
+        <div class="contact_wrapper">
+            <svg viewBox="0 0 24 24" width="24" height="24"
+                stroke="currentColor" stroke-width="2" fill="none"
+                stroke-linecap="round" stroke-linejoin="round"
+                class="icon phone_icon">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 
+                     19.79 19.79 0 0 1-8.63-3.07 
+                     19.5 19.5 0 0 1-6-6 
+                     19.79 19.79 0 0 1-3.07-8.67 
+                     A2 2 0 0 1 4.11 2h3a2 2 
+                     0 0 1 2 1.72 12.84 12.84 
+                     0 0 0 .7 2.81 2 2 0 0 1-.45 2.11
+                     L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27
+                     a2 2 0 0 1 2.11-.45 
+                     12.84 12.84 0 0 0 2.81.7
+                     A2 2 0 0 1 22 16.92z">
+                </path>
+            </svg>
+
+            <div class="call_info">
+                <span class="call_text">Call Us Now:</span>
+                <span class="call_number">01723307543</span>
+            </div>
+
+            <div class="wishlist_wrapper">
+                <svg viewBox="0 0 24 24" width="24" height="24"
+                    stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round"
+                    class="icon heart_icon">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67
+                         l-1.06-1.06a5.5 5.5 0 0 0-7.78 
+                         7.78l1.06 1.06L12 21.23l7.78-7.78 
+                         1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                    </path>
+                </svg>
+            </div>
+
+            <div class="user_wrapper">
+                <svg viewBox="0 0 24 24" width="24" height="24"
+                    stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round"
+                    class="icon user_icon">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8
+                         a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+
+                <div class="user_info">
+                    <span class="user_greeting">Hi,</span>
+                    <span class="user_auth">Login/Signup</span>
+                </div>
+            </div>
+        </div>
     </div>
+
     <div class="header_middle" id="myHeader">
         <h5>Header Middle</h5>
     </div>
 </header>
-<section class="website_content">
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, odit
-        repellat. Quia impedit culpa vitae. Minima harum consequuntur provident
-        rerum ratione assumenda ipsa deserunt iure, quos fuga totam asperiores
-        tempora commodi beatae reprehenderit dolorem officia nobis autem
-        consectetur cupiditate, ex vel suscipit minus veritatis! Ad fugit,
-        blanditiis itaque, recusandae vel quam, corrupti ab doloremque illo
-        ratione ut commodi? In illum expedita mollitia sunt debitis atque
-        dolorum nobis a, modi eaque earum, beatae est tempore corrupti
-        aspernatur nesciunt temporibus inventore quisquam obcaecati qui! Placeat
-        at quam consequuntur fuga iure! Harum facere dolore optio dolorem nihil
-        exercitationem ullam est deleniti quae cupiditate alias ratione
-        accusantium ut, nobis, dolor perferendis? Magni aliquid magnam
-        voluptatibus veritatis ex sunt quae repudiandae exercitationem itaque
-        nobis distinctio, neque ut adipisci aut vel animi amet qui voluptate
-        eligendi architecto laborum eveniet illum eaque fugiat! Assumenda, odit,
-        impedit voluptas officia quos dolor ducimus maxime consequuntur
-        recusandae aperiam asperiores ex facilis explicabo et rerum earum.
-        Dolorem numquam veniam ipsa autem. Sunt accusamus porro ducimus
-        corporis. Omnis ab delectus exercitationem iusto earum reiciendis
-        maiores voluptate quaerat ratione non mollitia iste voluptas facere
-        natus itaque nam, quisquam ex amet! Harum fugiat laboriosam error hic
-        officia labore molestiae obcaecati doloremque cupiditate iste ea earum
-        nobis, saepe magni incidunt vero excepturi explicabo magnam soluta quia
-        atque aspernatur dignissimos quo! Reiciendis tempore voluptatibus
-        incidunt! Excepturi nobis earum laboriosam incidunt illum obcaecati!
-        Corrupti, voluptatibus perspiciatis consequatur dolorem totam aperiam.
-        Nihil accusantium esse eum suscipit consectetur fugit sint error amet
-        omnis expedita. Aut quasi tenetur autem vitae, praesentium deserunt ab
-        rem impedit minima adipisci, vel, vero voluptate non? Quibusdam, rerum.
-        Et sint dolorem facilis porro exercitationem voluptates nesciunt iste
-        dolor quas, tempore nisi explicabo eligendi laudantium soluta repellat
-        enim aliquam, aliquid odit quod quis adipisci voluptatibus libero. Ut in
-        ducimus qui cumque, incidunt quia sunt provident voluptatum, unde
-        nostrum dolorum itaque! Facere adipisci illum expedita qui consequatur.
-        Nam nihil optio libero quod cum veniam placeat aspernatur deleniti
-        tempora quo in, nulla nobis unde, soluta eveniet alias eaque iure
-        debitis commodi! Blanditiis animi sequi saepe praesentium eligendi
-        consequuntur consequatur quasi nihil nostrum tempore accusantium,
-        impedit illo reprehenderit ducimus placeat. Necessitatibus iste
-        voluptatem nulla quisquam, tempore nobis ipsa aperiam labore adipisci
-        corrupti in quos quo nam soluta corporis cupiditate laborum quod vitae
-        quae error optio ipsum. Repudiandae, officiis sequi. Nihil perspiciatis
-        labore ducimus voluptatem odio culpa unde eveniet quis. Earum provident
-        ex consequuntur quis nemo minus dolores nihil corrupti modi ipsam,
-        tempora voluptatem deleniti a consectetur nobis sequi explicabo, minima
-        quisquam. Blanditiis non maiores sint consequuntur, dignissimos dolor
-        repudiandae officiis ipsum optio corrupti laboriosam ad expedita ex
-        corporis ipsam veniam vel tempore ut. Tenetur cumque, magnam minus
-        laboriosam obcaecati cum consectetur! In nam et distinctio doloremque
-        enim odit, hic dolorum sequi, deserunt asperiores nihil! Odit quidem
-        natus facilis, consectetur assumenda quo rem, accusantium voluptatum
-        quaerat unde similique vero dolorem illum labore molestiae provident?
-        Doloremque, magni voluptate? Voluptas doloribus ipsa ad reprehenderit
-        consequuntur eius soluta earum libero repellendus impedit. Voluptatibus
-        odio id eos rerum culpa aspernatur accusamus tempore sint, iusto, est
-        maiores? Laborum maiores, eos doloribus, officiis suscipit ipsa fugit
-        alias iusto fugiat ea cum! Ipsa aliquam incidunt perspiciatis dolor,
-        quasi earum dignissimos optio ullam quia dolores quae magni placeat.
-        Vero asperiores quisquam, totam cumque consectetur laborum
-        exercitationem eaque. Porro laborum labore, odit voluptatum dolor a
-        alias possimus nisi iusto, consequuntur eligendi ex, molestias est culpa
-        nemo quibusdam! Perferendis fugiat quasi quaerat ipsa blanditiis,
-        dignissimos vel optio quas obcaecati quae cum esse odio repellendus quod
-        omnis distinctio doloribus magni nostrum expedita recusandae assumenda
-        veniam. Fuga eius veniam molestias, omnis, vitae maxime assumenda et
-        alias quo minima voluptate eos totam consectetur impedit, provident
-        dolore earum culpa tempore dolores perferendis magnam. Soluta harum iure
-        voluptates! Dolores nisi perferendis nobis commodi ipsam aperiam dolor
-        vitae dignissimos alias, excepturi exercitationem consectetur doloribus
-        architecto ut pariatur possimus quas fugiat magni eos libero iure atque
-        aliquid eum? Ut corporis dolores eius ad enim in repudiandae ratione,
-        dicta eos architecto nostrum, itaque amet, omnis delectus vero obcaecati
-        corrupti aliquam dolorem repellendus esse soluta qui odit? Rerum maiores
-        aliquid veniam error voluptates ducimus. Possimus, nam iure dolorum
-        quibusdam cumque sunt molestias eveniet! Aut id quam quaerat fuga
-        cupiditate architecto! Ipsa, molestias totam quo expedita unde veniam!
-        Veniam obcaecati nemo repudiandae odio atque ex, nisi explicabo ratione
-        voluptas aperiam, et hic quis! Quas cupiditate sit aut ut rem, voluptate
-        illum itaque nam dignissimos optio dolorem libero eveniet sequi nobis
-        voluptas minus ipsam odit eligendi porro temporibus recusandae esse.
-        Tempore placeat, qui accusantium porro quod provident aliquid soluta
-        neque reiciendis? Ipsum temporibus autem fugit et error similique modi
-        consequuntur mollitia cupiditate architecto eveniet facere neque fugiat
-        tempora, exercitationem voluptatum iure omnis reprehenderit quidem! Quos
-        laudantium architecto et voluptatibus repudiandae dolorum dolorem
-        molestiae, quidem veritatis odio officia corporis fugit hic quia harum
-        autem sint consectetur consequuntur repellat ut suscipit voluptatum,
-        eaque aliquam. Sit facere, incidunt labore atque nobis optio asperiores
-        vel minus praesentium. Eos ratione eligendi fuga nesciunt vero maiores
-        voluptas sed ducimus et modi, aliquid sequi vel fugit voluptatem hic
-        dolorem non. Corrupti, dolor debitis. Deleniti, aliquid cupiditate sit
-        non quas numquam id eos laudantium dignissimos in architecto animi
-        corporis vel, eligendi consequuntur, assumenda vitae facere porro
-        maiores incidunt debitis rem? Libero, minima delectus. Dicta vitae,
-        provident fugit iste aliquid magni accusamus molestiae similique, libero
-        maxime et nemo numquam. Quos ducimus reiciendis ab ullam animi, libero
-        totam inventore deleniti voluptatem odio debitis quasi. Qui nihil nulla
-        iste rem incidunt facilis repudiandae laborum voluptas autem distinctio
-        neque fugiat consequuntur dolores alias maxime atque suscipit a eligendi
-        provident, repellat reprehenderit tempore ipsa expedita! Rerum porro
-        quia facere, optio facilis nam ex explicabo aut. Natus necessitatibus a,
-        eius nam nobis eaque quam excepturi culpa quo velit voluptates
-        exercitationem, provident, incidunt voluptatibus quis! Asperiores dolore
-        molestias nemo similique reprehenderit expedita sunt amet cum cumque vel
-        repellat blanditiis fugiat, praesentium repudiandae cupiditate, vero
-        aperiam odio quisquam. In porro amet quidem dolorum veniam nemo,
-        repellat quae dolore voluptatibus animi ducimus a praesentium facilis
-        placeat, dolores libero aperiam nisi fugit officia laudantium. Officiis
-        nostrum dicta impedit cupiditate.
-    </p>
-</section>
